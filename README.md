@@ -38,7 +38,7 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 # Parts needed
 
-Breadboard
+# Breadboard
 
 * ![breadboard](https://user-images.githubusercontent.com/82398683/127671656-f9e62d1d-fa0b-447b-95b4-b6ba1ad2a97a.jpg)
 
