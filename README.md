@@ -1,10 +1,18 @@
-# BUKKIE
+# A.T.A.R.I 
+
+# [ All Terrain Arduino Robotic Interface ]
 
 # Introduction
 
 An offroad robot that uses an Arduino nano board with an L298N driver with a hc-06 bluetooth module.
 This robot uses three rgb led modules.
-One as a headlight another for a break light and a third to make the robot look like a high end gaming pc. 
+One as a headlight another for a break light and a third to make the robot look like a high end gaming pc.
+
+# Chasis
+
+You can use any rc car chasis of your choice that has 2 motors.
+A motor that can drive the back wheels, Forward or reverse.
+A second motor that turns the left wheels left or right.
 
 # How it works.
 
@@ -18,4 +26,8 @@ When the robot is powered on it will play every nerds favourite tune of retrogam
 Super Mario bros for the NES.
 
 ONce booted the RGB should start.
+
+The robot is powered by 2 battery packs, A powerpank which plugs directly into the Arduino 
+
+# How does Bluetooth work with Arduino
 
