@@ -27,7 +27,10 @@ Super Mario bros for the NES.
 
 ONce booted the RGB should start.
 
-The robot is powered by 2 battery packs, A powerpank which plugs directly into the Arduino 
+# Batteries
+
+The robot is powered by 2 battery packs, A powerpank which plugs directly into the Arduino and a seperate battery pack that is supplying power to the L298N motor driver.
+In my case I use two 3.7 volt with 9800 MAh Lithium ions but you can use your own depending on your motors on your chasis.
 
 # How does Bluetooth work with Arduino
 
