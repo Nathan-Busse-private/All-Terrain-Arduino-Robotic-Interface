@@ -42,4 +42,9 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 * ![breadboard](https://user-images.githubusercontent.com/82398683/127671656-f9e62d1d-fa0b-447b-95b4-b6ba1ad2a97a.jpg)
 
+# L298N
+
+* ![L298N-Module-Pinout](https://user-images.githubusercontent.com/82398683/127672154-277cac67-bf73-450f-b9e5-dc42ed50596c.jpg)
+
+
 
