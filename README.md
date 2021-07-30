@@ -46,5 +46,51 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 * ![L298N-Module-Pinout](https://user-images.githubusercontent.com/82398683/127672154-277cac67-bf73-450f-b9e5-dc42ed50596c.jpg)
 
+# Arduino Nano
+
+* ![Arduino-Nano-3 0](https://user-images.githubusercontent.com/82398683/127672410-e96319b3-2582-42f8-99f3-f3f3e5a1fe02.jpg)
+
+# HC-06 Bluetooth module
+
+* ![slave-wireless-hc-06-bluetooth-slave-module](https://user-images.githubusercontent.com/82398683/127672620-f62c6021-84cd-4932-942f-e80fc319c94b.jpg)
+
+# RGB LED module x 3
+
+*![KY-009_RGB_full_color_LED_SMD_arduino_module](https://user-images.githubusercontent.com/82398683/127672895-bbf87022-504c-4b7f-9e8a-2a6628627c2a.jpg)
+
+# Buzzer Module
+
+* ![images](https://user-images.githubusercontent.com/82398683/127673218-8c39d16a-7465-40f4-8fd7-95daede3dde2.jpg)
+
+# Powerbank
+
+# Battery pack of your choice
+
+# Batteries (7 volts or higher / Amperiige of your choice.
+
+# Jumper leads
+
+* ![images (2)](https://user-images.githubusercontent.com/82398683/127673967-6dea656f-fca5-4ad1-bbd2-fc0fd8656428.jpg)
+
+# Arduino IDE
+
+# USB 2.0 A to USB 2.0 Mini B cable
+
+* ![BE-01-0487-650x489 (1)](https://user-images.githubusercontent.com/82398683/127674380-77493e7c-fb12-492c-935a-e1177294504f.jpg)
+
+# Bluetooth controller app
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
