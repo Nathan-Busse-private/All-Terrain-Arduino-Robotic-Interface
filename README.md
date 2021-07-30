@@ -42,6 +42,6 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
  
 
-![breadboard](https://user-images.githubusercontent.com/82398683/127671520-c9029e0e-137c-4c38-9847-a36f4aaffecd.jpg)
+(https://user-images.githubusercontent.com/82398683/127671520-c9029e0e-137c-4c38-9847-a36f4aaffecd.jpg)
 
 
