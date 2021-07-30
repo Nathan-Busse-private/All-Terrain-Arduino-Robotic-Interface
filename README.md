@@ -82,6 +82,10 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 *![2_21_4](https://user-images.githubusercontent.com/82398683/127676134-1a31c811-a375-4d18-9232-0b535d3abe7c.jpg)
 
+# Bluetooth app
+
+
+https://play.google.com/store/apps/new?hl=en_ZA&gl=US 
 
 
 
