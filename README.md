@@ -78,7 +78,7 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 * ![BE-01-0487-650x489 (1)](https://user-images.githubusercontent.com/82398683/127674380-77493e7c-fb12-492c-935a-e1177294504f.jpg)
 
-# RC chasis
+# RC chasis of your choice
 
 *![2_21_4](https://user-images.githubusercontent.com/82398683/127676134-1a31c811-a375-4d18-9232-0b535d3abe7c.jpg)
 
