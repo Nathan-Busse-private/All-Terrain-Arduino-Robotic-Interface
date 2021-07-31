@@ -22,22 +22,22 @@ int bluetoothTx = 2; // bluetooth tx to 2 pin
 int bluetoothRx = 3; // bluetooth rx to 3 pin
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
-//Back Motor Pins  
+//Back Motor Pins  (OUTPUT 3 and 4) L298N
 int Enable1 = 6;
 int Motor1_Pin1 = 10;  
 int Motor1_Pin2 = 9;  
 
-//Font Motor Pins      
+//Font Motor Pins  (OUTPUT 1 and 2)  L298N
 int Motor2_Pin1 = 8; 
 int Motor2_Pin2 = 7;
 int Enable2 = 11; 
 
-//Front Light pins   
+//Front Light pins   (RGB LED Module)
 int front_light1 = A0;
 int front_light2 = A1;
 int front_light3 = A5;
 
-//Back light pins
+//Back light pins (2 colour LED Module)
 int back_light1 = A2;
 int back_light2 = A3;
 int horn = 12;
@@ -68,6 +68,7 @@ void setup()
   pinMode(BLUE, OUTPUT);
   pinMode(RED, OUTPUT);
 
+//Buzzer tone.
 tone(12,660,100);
       delay(150);
       tone(12,660,100);
@@ -246,4 +247,4 @@ void loop(){
       
     
   
- 
+ // Nathan Busse
