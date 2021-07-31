@@ -54,9 +54,15 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 * ![slave-wireless-hc-06-bluetooth-slave-module](https://user-images.githubusercontent.com/82398683/127672620-f62c6021-84cd-4932-942f-e80fc319c94b.jpg)
 
-# RGB LED module x 3
+# RGB LED module x 2
 
-*![KY-009_RGB_full_color_LED_SMD_arduino_module](https://user-images.githubusercontent.com/82398683/127672895-bbf87022-504c-4b7f-9e8a-2a6628627c2a.jpg)
+* ![KY-009_RGB_full_color_LED_SMD_arduino_module](https://user-images.githubusercontent.com/82398683/127672895-bbf87022-504c-4b7f-9e8a-2a6628627c2a.jpg)
+
+
+# 2 Colour led module
+
+* ![download](https://user-images.githubusercontent.com/82398683/127743863-cb4527b8-85e8-4f5d-87fe-7545c5a9a578.jpg)
+
 
 # Buzzer Module
 
