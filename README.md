@@ -23,9 +23,9 @@ function. It then selects the colour values from a range of o to 255. Each numbe
 but their is a bug where only certain colours are shown.
 
 When the robot is powered on it will play every nerds favourite tune of retrogaming, The startup of the original
-Super Mario bros for the NES.
+Super Mario bros from the classic NES console.
 
-ONce booted the RGB should start.
+Once booted the RGB should start.
 
 # Batteries
 
