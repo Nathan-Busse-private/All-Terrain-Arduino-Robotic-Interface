@@ -74,7 +74,7 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 # Batteries (7 volts or higher / Amperige of your choice but I recommend 19600 MAh in total.
 
-# Jumper leads
+# Jumper leads (All types are required for this project depending on the size of your chasis.)
 
 * ![images (2)](https://user-images.githubusercontent.com/82398683/127673967-6dea656f-fca5-4ad1-bbd2-fc0fd8656428.jpg)
 
