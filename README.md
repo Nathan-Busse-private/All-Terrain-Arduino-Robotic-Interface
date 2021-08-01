@@ -96,6 +96,11 @@ The code has comments that will explain how to assemble the robot.
 
 https://play.google.com/store/apps/new?hl=en_ZA&gl=US 
 
+# The insides of my robot.
+
+![WhatsApp Image 2021-08-01 at 1 57 44 PM](https://user-images.githubusercontent.com/82398683/127770087-614c2b12-72d8-4287-be01-f7a6b1ef90c7.jpeg)
+
+
 
 
 
