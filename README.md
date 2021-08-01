@@ -18,7 +18,7 @@ A second motor that turns the left wheels left or right.
 
 The controls of the robot is just like a regular rc car but you can change the speed of the robot,
 plus you can control the lights to drive at night. It includes a buzzer which can be toggled wirelessly.
-The RGB light cycles automatically and uses the "#random" 
+The RGB light cycles automatically and uses the "# random" 
 function. It then selects the colour values from a range of o to 255. Each number resembles a different colour
 but their is a bug where only certain colours are shown.
 
@@ -72,13 +72,15 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 # Battery pack of your choice
 
-# Batteries (7 volts or higher / Amperige of your choice but I recommend 18500 MAh in total.
+# Batteries (7 volts or higher / Amperige of your choice but I recommend 19600 MAh in total.
 
 # Jumper leads
 
 * ![images (2)](https://user-images.githubusercontent.com/82398683/127673967-6dea656f-fca5-4ad1-bbd2-fc0fd8656428.jpg)
 
 # Arduino IDE
+
+https://www.arduino.cc/en/software 
 
 # USB 2.0 A to USB 2.0 Mini B cable
 
