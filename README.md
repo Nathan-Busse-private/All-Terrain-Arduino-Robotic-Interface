@@ -72,7 +72,7 @@ HC 05/06 works on serial communication. The Android app is designed to send seri
 
 # Battery pack of your choice
 
-# Batteries (7 volts or higher / Amperiige of your choice.
+# Batteries (7 volts or higher / Amperige of your choice but I recommend 18500 MAh in total.
 
 # Jumper leads
 
