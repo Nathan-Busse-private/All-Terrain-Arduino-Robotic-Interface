@@ -12,7 +12,7 @@ One as a headlight another for a break light and a third to make the robot look 
 
 You can use any rc car chasis of your choice that has 2 motors.
 A motor that can drive the back wheels, Forward or reverse.
-A second motor that turns the left wheels left or right.
+A second motor that turns the front wheels left or right.
 
 # How it works.
 
