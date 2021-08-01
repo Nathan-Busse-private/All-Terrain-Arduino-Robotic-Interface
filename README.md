@@ -18,7 +18,7 @@ A second motor that turns the left wheels left or right.
 
 The controls of the robot is just like a regular rc car but you can change the speed of the robot,
 plus you can control the lights to drive at night. It includes a buzzer which can be toggled wirelessly.
-The RGB light cycles automatically and uses the "# random" 
+The RGB light cycles automatically and uses the "random" 
 function. It then selects the colour values from a range of o to 255. Each number resembles a different colour
 but their is a bug where only certain colours are shown.
 
