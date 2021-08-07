@@ -36,6 +36,10 @@ In my case I use four 3.7 volt two 18650 battries with 3000 MAh and two 26650 ba
 
 HC 05/06 works on serial communication. The Android app is designed to send serial data to the Arduino Bluetooth module when a button is pressed on the app. The Arduino Bluetooth module at the other end receives the data and sends it to the Arduino through the TX pin of the Bluetooth module (connected to RX pin of Arduino). The code uploaded to the Arduino checks the received data and compares it. If the received data is 1 or any specified command, for an example a LED turns ON. The LED turns OFF when the received data is 0. 
 
+# How a L298N works
+
+https://www.teachmemicro.com/use-l298n-motor-driver/
+
 # Parts needed
 
 # Breadboard
