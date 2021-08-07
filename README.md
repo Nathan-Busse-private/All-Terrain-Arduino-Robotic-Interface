@@ -60,6 +60,8 @@ Next are the logic control inputs. The Enable A and Enable B pins are used for e
 
 Next, the Input 1 and Input 2 pins are used for controlling the rotation direction of the motor A, and the inputs 3 and 4 for the motor B. Using these pins we actually control the switches of the H-Bridge inside the L298N IC. If input 1 is LOW and input 2 is HIGH the motor will move forward, and vice versa, if input 1 is HIGH and input 2 is LOW the motor will move backward. In case both inputs are same, either LOW or HIGH the motor will stop. The same applies for the inputs 3 and 4 and the motor B etc.
 
+# More details about the L298N
+
 https://www.teachmemicro.com/use-l298n-motor-driver/
 
 # Parts needed
