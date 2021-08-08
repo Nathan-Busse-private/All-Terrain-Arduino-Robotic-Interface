@@ -25,9 +25,8 @@ but their is a bug where only certain colours are shown.
 When the robot is powered on it will play every nerds favourite tune of retrogaming, The startup of the original
 Super Mario bros from the classic NES console.
 
-# Diagnostics indicator
-* RGB
-* 
+# Diagnostics indicator ( RGB )
+ 
 This is not just an RGB that is used for astetic purposes, its main function is actually a diagnostics indicator.
     
    # How it works...
