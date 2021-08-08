@@ -22,7 +22,10 @@ int bluetoothTx = 2; // bluetooth tx to 2 pin
 int bluetoothRx = 3; // bluetooth rx to 3 pin
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
-//Back Motor Pins  (OUTPUT 3 and 4) L298N
+//If the motors turn the opposite direction swap the wires around in that output.
+
+//Back Motor Pins  (OUTPUT 3 and 4) L298N 
+
 int Enable1 = 6;
 int Motor1_Pin1 = 10;  
 int Motor1_Pin2 = 9;  
@@ -96,7 +99,8 @@ tone(12,660,100);
 }
 
 void loop(){
-  if(bluetooth.available() > 0){  //Checking if there is some data available or not
+  if(bluetooth.available() > 0){ //Checking if there is some data available or not
+    RGB () ;
     command = bluetooth.read();   //Storing the data in the 'command' variable
     Serial.println(command);      //Printing it on the serial monitor
     
@@ -209,10 +213,29 @@ void loop(){
       }
       }
     }
-     RGB();
+     // RGB();
   } 
 
   void RGB()
+
+  /*
+   * This is not just an RGB that is used for astetic purposes,
+   * its main function is actually a diognostics indicator.
+   * 
+   * How it works...
+   * 
+   * The LED will remain solid if the robot is not connected to a device,
+   * or their is a hardware issue with the connection of the module, 
+   * check the connections but 9/10 your device is not connected.
+   * 
+   * Once powered on the LED will remain solid.
+   * Once you have a connected the robot to your Android device the
+   * RGB should start cycling through the colours.
+   * 
+   * If your device suddenly disconnects from the robot, 
+   * The RGB will stop cycling and will remain solid,
+   * letting the operator know the robot has lost connection.
+   */
 {
    // Update all LEDs and start new fades if any are done
   for (byte i = 0; i < LED_NUM; i++) 
@@ -228,7 +251,7 @@ void loop(){
       // Fade Up
       if (led->get_value() == 0) 
       {
-        byte intensity = random(9, 255);
+        byte intensity = random(0, 255);
          
          
         led->fade(intensity, duration);
@@ -243,8 +266,8 @@ void loop(){
  }
 
       
-      
+// Nathan-Busse      
       
     
   
- // Nathan Busse
+ 
