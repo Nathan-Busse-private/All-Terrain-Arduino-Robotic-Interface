@@ -1,7 +1,25 @@
+/*     
+  * This code was written for this project 
+  * to work effectively with the
+  * instructions provided and should
+  * not be tampered with.
+  
+  * Follow the instructions in the README file included in the project's 
+  * Github repository: https://github.com/Nathan-Busse/All-Terrain-Arduino-Robotic-Interface
+  
+  * Created by Nathan-Busse
+  * 
+  * Don't you love love coding and Arduino?
+  * Me too! ;)
+  * 
+  * All bugs will be repaired by me "Nathan-Busse" YOU can to.
+  * Mention them in the Issues tab.
+  * 
+  */
+
 //including the libraries
 #include <SoftwareSerial.h> // TX RX software library for bluetooth
 #include <LEDFader.h>
-
 
 //Defining pins for RGB led
 #define GREEN 13
@@ -22,25 +40,22 @@ int bluetoothTx = 2; // bluetooth tx to 2 pin
 int bluetoothRx = 3; // bluetooth rx to 3 pin
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
-//If the motors turn the opposite direction swap the wires around in that output.
-
-//Back Motor Pins  (OUTPUT 3 and 4) L298N 
-
+//Back Motor Pins  
 int Enable1 = 6;
 int Motor1_Pin1 = 10;  
 int Motor1_Pin2 = 9;  
 
-//Font Motor Pins  (OUTPUT 1 and 2)  L298N
+//Front Motor Pins      
 int Motor2_Pin1 = 8; 
 int Motor2_Pin2 = 7;
 int Enable2 = 11; 
 
-//Front Light pins   (RGB LED Module)
+//Front Light pins   
 int front_light1 = A0;
 int front_light2 = A1;
 int front_light3 = A5;
 
-//Back light pins (2 colour LED Module)
+//Back light pins
 int back_light1 = A2;
 int back_light2 = A3;
 int horn = 12;
@@ -71,7 +86,6 @@ void setup()
   pinMode(BLUE, OUTPUT);
   pinMode(RED, OUTPUT);
 
-//Buzzer tone.
 tone(12,660,100);
       delay(150);
       tone(12,660,100);
@@ -99,8 +113,7 @@ tone(12,660,100);
 }
 
 void loop(){
-  if(bluetooth.available() > 0){ //Checking if there is some data available or not
-    RGB () ;
+  if(bluetooth.available() > 0){  //Checking if there is some data available or not
     command = bluetooth.read();   //Storing the data in the 'command' variable
     Serial.println(command);      //Printing it on the serial monitor
     
@@ -213,29 +226,10 @@ void loop(){
       }
       }
     }
-     // RGB();
+     RGB();
   } 
 
   void RGB()
-
-  /*
-   * This is not just an RGB that is used for astetic purposes,
-   * its main function is actually a diognostics indicator.
-   * 
-   * How it works...
-   * 
-   * The LED will remain solid if the robot is not connected to a device,
-   * or their is a hardware issue with the connection of the module, 
-   * check the connections but 9/10 your device is not connected.
-   * 
-   * Once powered on the LED will remain solid.
-   * Once you have a connected the robot to your Android device the
-   * RGB should start cycling through the colours.
-   * 
-   * If your device suddenly disconnects from the robot, 
-   * The RGB will stop cycling and will remain solid,
-   * letting the operator know the robot has lost connection.
-   */
 {
    // Update all LEDs and start new fades if any are done
   for (byte i = 0; i < LED_NUM; i++) 
@@ -251,7 +245,7 @@ void loop(){
       // Fade Up
       if (led->get_value() == 0) 
       {
-        byte intensity = random(0, 255);
+        byte intensity = random(9, 255);
          
          
         led->fade(intensity, duration);
@@ -265,9 +259,3 @@ void loop(){
   }
  }
 
-      
-// Nathan-Busse      
-      
-    
-  
- 
