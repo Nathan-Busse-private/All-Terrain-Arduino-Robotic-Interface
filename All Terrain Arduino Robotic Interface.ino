@@ -9,7 +9,7 @@
   
   * Created by Nathan-Busse
   * 
-  * Don't you love love coding and Arduino?
+  * Don't you love coding and Arduino?
   * Me too! ;)
   * 
   * All bugs will be repaired by me "Nathan-Busse" YOU can to.
@@ -224,8 +224,8 @@ void loop(){
           analogWrite(Enable1, velocity);
         }
       }
-      }
     }
+  }
      RGB();
   } 
 
@@ -254,8 +254,9 @@ void loop(){
       else 
       {
         led->fade(0, duration);
-    }
-    }
-  }
- }
 
+       }
+     }
+   }
+ }
+ 
