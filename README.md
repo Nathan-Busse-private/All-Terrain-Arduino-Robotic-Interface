@@ -25,23 +25,6 @@ but their is a bug where only certain colours are shown.
 When the robot is powered on it will play every nerds favourite tune of retrogaming, The startup of the original
 Super Mario bros from the classic NES console.
 
-# Diagnostics indicator ( RGB )
- 
-This is not just an RGB that is used for astetic purposes, its main function is actually a diagnostics indicator.
-    
-   # How it works...
-   
-   The LED will remain solid if the robot is not connected to a device,
-   or their is a hardware issue with the connection of the module, 
-   check the connections but 9/10 your device is not connected.
-    
-   Once powered on the LED will remain solid.
-   Once you have a connected the robot to your Android device the
-   RGB should start cycling through the colours.
-    
-   If your device suddenly disconnects from the robot, 
-   The RGB will stop cycling and will remain solid,
-   letting the operator know the robot has lost connection.
 
 # Batteries
 
@@ -145,6 +128,8 @@ https://play.google.com/store/apps/new?hl=en_ZA&gl=US
 # The insides of my robot.
 
 ![WhatsApp Image 2021-08-01 at 1 57 44 PM](https://user-images.githubusercontent.com/82398683/127770087-614c2b12-72d8-4287-be01-f7a6b1ef90c7.jpeg)
+
+# This project is still being developed and the image of the finished product of the robot will be uploaded once it is complete.
 
 
 
