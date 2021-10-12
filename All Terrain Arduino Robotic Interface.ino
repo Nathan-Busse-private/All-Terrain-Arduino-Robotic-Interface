@@ -2,7 +2,7 @@
   * This code was written for this project 
   * to work effectively with the
   * instructions provided and should
-  * not be tampered with.
+  * not be tampered with unless stated otherwise.
   
   * Follow the instructions in the README file included in the project's 
   * Github repository: https://github.com/Nathan-Busse/All-Terrain-Arduino-Robotic-Interface
