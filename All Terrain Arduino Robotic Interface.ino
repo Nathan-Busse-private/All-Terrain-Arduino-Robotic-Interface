@@ -40,14 +40,27 @@ int bluetoothTx = 2; // bluetooth tx to 2 pin
 int bluetoothRx = 3; // bluetooth rx to 3 pin
 SoftwareSerial bluetooth(bluetoothTx, bluetoothRx);
 
-//Back Motor Pins  
+//Steering Motor Pins  In my case.
 int Enable1 = 6;
-int Motor1_Pin1 = 10;  
-int Motor1_Pin2 = 9;  
 
-//Front Motor Pins      
-int Motor2_Pin1 = 8; 
-int Motor2_Pin2 = 7;
+/* Swap pin values with your robot
+ *  My steering for the robot is at the back and 
+ *  the drive motors are at the front.
+ */
+
+int Motor1_Pin1 = 9;  // Replace with 10
+int Motor1_Pin2 = 10; // Replace with 9 
+
+// Drive Motor Pins  In my case  
+
+/*Swap pin values with your robot
+ *  My steering for the robot is at the back and 
+ *  the drive motors are at the front.
+ *  
+ *  Excluding the enable pin
+ */ 
+int Motor2_Pin1 = 7; // Replace with 8
+int Motor2_Pin2 = 8; // Replace with 7
 int Enable2 = 11; 
 
 //Front Light pins   
@@ -212,8 +225,8 @@ void loop(){
     //Controlling the Speed of Car  
     default:  //Get velocity
       if(command=='q'){
-        velocity = 900;  //Full velocity
-        analogWrite(Enable1, velocity);
+        velocity = 255;  //Full velocity
+        analogWrite(Enable2, velocity);
       }
       else{ 
         //Chars '0' - '9' have an integer equivalence of 48 - 57, accordingly.
