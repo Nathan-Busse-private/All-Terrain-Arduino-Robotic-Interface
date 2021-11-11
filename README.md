@@ -127,7 +127,8 @@ https://play.google.com/store/apps/new?hl=en_ZA&gl=US
 
 # The insides of my robot.
 
-![WhatsApp Image 2021-08-01 at 1 57 44 PM](https://user-images.githubusercontent.com/82398683/127770087-614c2b12-72d8-4287-be01-f7a6b1ef90c7.jpeg)
+![WhatsApp Image 2021-11-11 at 7 55 45 PM](https://user-images.githubusercontent.com/82398683/141346308-31b22bd7-9a1b-496d-8331-9c4b306b551e.jpeg)
+
 
 # This project is still being developed and the image of the finished product of the robot will be uploaded once it is complete.
 
