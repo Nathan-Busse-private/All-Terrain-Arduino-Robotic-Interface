@@ -99,6 +99,110 @@ void setup()
   pinMode(BLUE, OUTPUT);
   pinMode(RED, OUTPUT);
 
+/*
+ * 
+
+
+*/      
+
+tone (12, 720, 100);
+delay (100);
+tone (12, 730, 100);
+delay (100);
+tone (12, 740, 100);
+delay (100);
+tone (12, 750, 100);
+delay (100);
+tone (12, 760, 100);
+delay (100);
+tone (12, 770, 100);
+delay (100);
+tone (12, 780, 100);
+delay (100);
+tone (12, 790, 100);
+delay (100);
+tone (12, 800, 100);
+delay (100);
+tone (12, 810, 100);
+delay (100);
+tone (12, 820, 100);
+delay (100);
+tone (12, 830, 100);
+delay (100);
+tone (12, 840, 100);
+delay (100);
+tone (12, 850, 100);
+delay (100);
+tone (12, 860, 100);
+delay (100);
+tone (12, 870, 100);
+delay (100);
+tone (12, 880, 100);
+delay (100);
+tone (12, 890, 100);
+delay (100);
+tone (12, 900, 100);
+delay (100);
+tone (12, 910, 100);
+delay (100);
+tone (12, 920, 100);
+delay (100);
+tone (12, 930, 100);
+delay (100);
+tone (12, 940, 100);
+delay (100);
+tone (12, 950, 100);
+delay (100);
+tone (12, 960, 100);
+delay (100);
+tone (12, 970, 100);
+delay (100);
+tone (12, 980, 100);
+delay (100);
+tone (12, 990, 100);
+delay (100);
+tone (12, 1000, 100);
+delay (100);
+tone (12, 1010, 100);
+delay (100);
+tone (12, 1020, 100);
+delay (100);
+tone (12, 1030, 100);
+delay (100);
+tone (12, 1040, 100);
+delay (100);
+tone (12, 1050, 100);
+delay (100);
+tone (12, 1060, 100);
+delay (100);
+tone (12, 1070, 100);
+delay (100);
+tone (12, 1080, 100);
+delay (100);
+tone (12, 1090, 100);
+delay (100);
+tone (12, 1100, 100);
+delay (100);
+tone (12, 1110, 100);
+delay (100);
+tone (12, 1120, 100);
+delay (100);
+tone (12, 1130, 100);
+delay (100);
+tone (12, 1140, 100);
+delay (100);
+tone (12, 1150, 100);
+delay (100);
+tone (12, 1160, 100);
+delay (100);
+tone (12, 1170, 100);
+delay (100);
+tone (12, 1180, 100);
+delay (100);
+tone (12, 1190, 100);
+delay (100);
+tone (12, 1200, 100);
+delay (100);
 tone(12,660,100);
       delay(150);
       tone(12,660,100);
@@ -113,9 +217,6 @@ tone(12,660,100);
       delay(550);
       tone(12,380,100);
       delay(575);
-
-      
-      
   
   //Setting the enable and RGB LED pins as HIGH.
   digitalWrite(Enable1, HIGH);
@@ -208,7 +309,7 @@ void loop(){
       digitalWrite(back_light2, LOW);
       break; 
     case 'V':  //Horn On
-      tone(12,660);
+      tone(12,1000);
       
       
       break; 
@@ -226,7 +327,7 @@ void loop(){
     default:  //Get velocity
       if(command=='q'){
         velocity = 255;  //Full velocity
-        analogWrite(Enable2, velocity);
+        analogWrite(Enable1, velocity);
       }
       else{ 
         //Chars '0' - '9' have an integer equivalence of 48 - 57, accordingly.
@@ -257,8 +358,10 @@ void loop(){
  
       // Fade Up
       if (led->get_value() == 0) 
+
+      
       {
-        byte intensity = random(9, 255);
+        byte intensity = random(1, 255);
          
          
         led->fade(intensity, duration);
@@ -273,4 +376,3 @@ void loop(){
    }
  }
  
-// Enjoy 
