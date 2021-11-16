@@ -48,8 +48,8 @@ int Enable1 = 6;
  *  the drive motors are at the front.
  */
 
-int Motor1_Pin1 = 9;  // Replace with 10
-int Motor1_Pin2 = 10; // Replace with 9 
+int Motor1_Pin1 = 9;  
+int Motor1_Pin2 = 10; 
 
 // Drive Motor Pins  In my case  
 
@@ -59,18 +59,19 @@ int Motor1_Pin2 = 10; // Replace with 9
  *  
  *  Excluding the enable pin
  */ 
-int Motor2_Pin1 = 7; // Replace with 8
-int Motor2_Pin2 = 8; // Replace with 7
+int Motor2_Pin1 = 7; 
+int Motor2_Pin2 = 8; 
 int Enable2 = 11; 
 
 //Front Light pins   
 int front_light1 = A0;
 int front_light2 = A1;
-int front_light3 = A5;
+int front_light3 = A2;
 
 //Back light pins
-int back_light1 = A2;
-int back_light2 = A3;
+int back_light1 = A3;
+int back_light2 = A4
+;
 int horn = 12;
 
 char command ; //variable to store the data
