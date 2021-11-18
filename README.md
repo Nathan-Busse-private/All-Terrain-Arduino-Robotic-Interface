@@ -28,8 +28,13 @@ Super Mario bros from the classic NES console.
 
 # Batteries
 
-The robot is powered by 2 battery packs, A powerpank which plugs directly into the Arduino and a seperate battery pack that is supplying power to the L298N motor driver.
-In my case I use four 3.7 volt two 18650 battries with 3000 MAh and two 26650 batteries with 9800 MAh Lithium ions but you can use your own depending on your motors on your chasis.
+The robot is powered by 1 battery pack containing two 18650 lithium ions, which plugs directly to the L298N motor driver, which also delivers power to the arduino..
+In my case I use two 3.7 volt  18650 battries with 3000 MAh  Lithium ions but you can use your own depending on your motors on your chasis.
+
+# Note!
+
+Do not power the Arduino directly from the l298n if your external power is 12 volts or higher, otherwise you will fry the Arduino.
+
 
 # How does Bluetooth work with Arduino
 
@@ -99,7 +104,7 @@ https://www.teachmemicro.com/use-l298n-motor-driver/
 
 # Battery pack of your choice
 
-# Batteries (7 volts or higher / Amperige of your choice but I recommend 25600 MAh in total for my robot depending on the size of your motors.
+# Batteries (7.4 volts or higher / Amperige of your choice but I recommend between 6000 and 8000 MAh in total depending on the size of your motors.
 
 # Jumper leads (All types are required for this project depending on the size of your chasis.)
 
