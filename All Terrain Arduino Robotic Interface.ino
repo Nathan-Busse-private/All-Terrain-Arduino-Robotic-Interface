@@ -235,28 +235,28 @@ void loop(){
     //Change pin mode only if new command is different from previous.   
     switch(command){
     case 'F':  //Moving the Car Forward
-      digitalWrite(Motor2_Pin2, LOW);
-      digitalWrite(Motor2_Pin1, HIGH);
+      digitalWrite(Motor2_Pin2, HIGH);
+      digitalWrite(Motor2_Pin1, LOW);
       digitalWrite(Motor1_Pin1, LOW);
-      digitalWrite(Motor1_Pin2, LOW);
+      digitalWrite(Motor1_Pin2, HIGH);
       break;
     case 'B':  //Moving the Car Backward
-      digitalWrite(Motor2_Pin1, LOW);
-      digitalWrite(Motor2_Pin2, HIGH);
-      digitalWrite(Motor1_Pin1, LOW);
+      digitalWrite(Motor2_Pin2, LOW);
+      digitalWrite(Motor2_Pin1, HIGH);
+      digitalWrite(Motor1_Pin1, HIGH);
       digitalWrite(Motor1_Pin2, LOW);
       break;
     case 'L':  //Moving the Car Left
-      digitalWrite(Motor1_Pin1, LOW);
+      digitalWrite(Motor1_Pin1, HIGH);
       digitalWrite(Motor1_Pin2, HIGH);
       digitalWrite(Motor2_Pin1, LOW);
       digitalWrite(Motor2_Pin2, LOW);
       break;
     case 'R':   //Moving the Car Right
-      digitalWrite(Motor1_Pin2, LOW);
-      digitalWrite(Motor1_Pin1, HIGH);  
-      digitalWrite(Motor2_Pin1, LOW);
-      digitalWrite(Motor2_Pin2, LOW);
+      digitalWrite(Motor1_Pin1, LOW);
+      digitalWrite(Motor1_Pin2, LOW);  
+      digitalWrite(Motor2_Pin1, HIGH);
+      digitalWrite(Motor2_Pin2, HIGH);
       break;
     case 'S':   //Stop
       digitalWrite(Motor2_Pin2, LOW);
@@ -264,6 +264,9 @@ void loop(){
       digitalWrite(Motor1_Pin2, LOW);
       digitalWrite(Motor1_Pin1, LOW);
       break; 
+
+/*      
+     
     case 'I':  //Moving the Car Forward right
       digitalWrite(Motor2_Pin2, LOW);
       digitalWrite(Motor2_Pin1, HIGH);
@@ -288,6 +291,8 @@ void loop(){
       digitalWrite(Motor1_Pin1, LOW);
       digitalWrite(Motor1_Pin2, HIGH);
       break;
+
+*/      
     case 'W':  //Front light ON 
       analogWrite(front_light1, random(255, 255));
       
@@ -323,6 +328,9 @@ void loop(){
     case 'X': //Turn OFF Everything
       
     break;
+
+
+
 
     //Controlling the Speed of Car  
     default:  //Get velocity
