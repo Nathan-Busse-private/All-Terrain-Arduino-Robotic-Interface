@@ -6,13 +6,12 @@
 
 An offroad robot that uses an Arduino nano board with an L298N driver with a hc-06 bluetooth module.
 This robot uses three rgb led modules.
-One as a headlight another for a break light and a third to make the robot look like a high end gaming pc.
+One as a headlight another for a back light and a third to make the robot look like a high end gaming pc.
 
 # Chasis
 
-You can use any rc car chasis of your choice that has 2 motors.
-A motor that can drive the back wheels, Forward or reverse.
-A second motor that turns the front wheels left or right.
+You can use any tank chasis of your choice that has 2 motors.
+
 
 # How it works.
 
@@ -25,11 +24,22 @@ but their is a bug where only certain colours are shown.
 When the robot is powered on it will play every nerds favourite tune of retrogaming, The startup of the original
 Super Mario bros from the classic NES console.
 
+# Controls
+
+The robot can go forward and backwards. The robot can turn in any direction on a single spot just like a real tank. 
+
+To turn left on a single spot the right tread rotates forward and the left tread rotates in the opposite direction.
+
+To turn right on a single spot the right tread rotates backwards and the left tread rotates forward.
+
+The robot can also change direction on the go without the need for stopping by using only one tread to allow it to move in the specified direction.
 
 # Batteries
 
-The robot is powered by 1 battery pack containing two 18650 lithium ions, which plugs directly to the L298N motor driver, which also delivers power to the arduino..
-In my case I use two 3.7 volt  18650 battries with 3000 MAh  Lithium ions but you can use your own depending on your motors on your chasis.
+The robot is powered by 1 battery pack containing a massive lead acid battery at 12 volts with a wopping 4,5 amps, which plugs directly to the L298N motor driver.
+The powerbank supplies power to the Arduino.
+
+
 
 # Note!
 
@@ -104,7 +114,7 @@ https://www.teachmemicro.com/use-l298n-motor-driver/
 
 # Battery pack of your choice
 
-# Batteries (7.4 volts or higher / Amperige of your choice but I recommend between 6000 and 8000 MAh in total depending on the size of your motors.
+# Batteries (7.4 volts or higher / Amperige that suites the recommendations of your motor. I used 12v 4,5 Amps which is the specifications that my motors require.
 
 # Jumper leads (All types are required for this project depending on the size of your chasis.)
 
@@ -118,24 +128,17 @@ https://www.arduino.cc/en/software
 
 * ![BE-01-0487-650x489 (1)](https://user-images.githubusercontent.com/82398683/127674380-77493e7c-fb12-492c-935a-e1177294504f.jpg)
 
-# RC chasis of your choice
-
-*![2_21_4](https://user-images.githubusercontent.com/82398683/127676134-1a31c811-a375-4d18-9232-0b535d3abe7c.jpg)
+# Tank chasis of your choice
+![download](https://user-images.githubusercontent.com/82398683/146548083-11ffe7a5-d601-41f2-b123-847a27f6007a.jpg)
 
 # Assembly
 The code has comments that will explain how to assemble the robot.
 
 # Bluetooth app
 
-
 https://play.google.com/store/apps/new?hl=en_ZA&gl=US 
 
-# The insides of my robot.
-
-![WhatsApp Image 2021-11-11 at 7 55 45 PM](https://user-images.githubusercontent.com/82398683/141346308-31b22bd7-9a1b-496d-8331-9c4b306b551e.jpeg)
-
-
-# This project is still being developed and the image of the finished product of the robot will be uploaded once it is complete.
+# This project is still being developed and the image of the finished product of the robot will be uploaded once it is complete and finalised.
 
 
 
